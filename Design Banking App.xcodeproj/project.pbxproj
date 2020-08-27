@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		4E4A7C3424F76E8C001CA858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3324F76E8C001CA858 /* AppDelegate.swift */; };
 		4E4A7C3624F76E8C001CA858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3524F76E8C001CA858 /* SceneDelegate.swift */; };
-		4E4A7C3824F76E8C001CA858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3724F76E8C001CA858 /* ViewController.swift */; };
+		4E4A7C3824F76E8C001CA858 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3724F76E8C001CA858 /* OnboardingViewController.swift */; };
 		4E4A7C3B24F76E8C001CA858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3924F76E8C001CA858 /* Main.storyboard */; };
 		4E4A7C3D24F76E8F001CA858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3C24F76E8F001CA858 /* Assets.xcassets */; };
 		4E4A7C4024F76E8F001CA858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A7C3E24F76E8F001CA858 /* LaunchScreen.storyboard */; };
+		4E4A7C4C24F76EEE001CA858 /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C4A24F76EEE001CA858 /* ExtensionUivew.swift */; };
+		4E4A7C4D24F76EEE001CA858 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C4B24F76EEE001CA858 /* UILabel.swift */; };
+		4E4A7C5024F76FD7001CA858 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C4F24F76FD7001CA858 /* CustomColors.swift */; };
+		4E4A7C5224F77422001CA858 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5124F77422001CA858 /* HomeViewController.swift */; };
+		4E4A7C5424F77490001CA858 /* AddCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5324F77490001CA858 /* AddCardCollectionViewCell.swift */; };
+		4E4A7C5624F774AC001CA858 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5524F774AC001CA858 /* BaseCollectionCell.swift */; };
+		4E4A7C5824F7752E001CA858 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5724F7752E001CA858 /* CardsCollectionViewCell.swift */; };
+		4E4A7C5A24F77549001CA858 /* CardDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5924F77549001CA858 /* CardDetailsCollectionViewCell.swift */; };
+		4E4A7C5C24F7756B001CA858 /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5B24F7756B001CA858 /* FriendsCollectionViewCell.swift */; };
+		4E4A7C5E24F775FE001CA858 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C5D24F775FE001CA858 /* FriendCollectionViewCell.swift */; };
+		4E4A7C6224F7765D001CA858 /* BaseCollectionVCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6124F7765D001CA858 /* BaseCollectionVCS.swift */; };
+		4E4A7C6424F7768C001CA858 /* FriendsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */; };
+		4E4A7C6724F77959001CA858 /* HomeCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E4A7C3024F76E8C001CA858 /* Design Banking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Banking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4A7C3324F76E8C001CA858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E4A7C3524F76E8C001CA858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E4A7C3724F76E8C001CA858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E4A7C3724F76E8C001CA858 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		4E4A7C3A24F76E8C001CA858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E4A7C3C24F76E8F001CA858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E4A7C3F24F76E8F001CA858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4A7C4124F76E8F001CA858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4A7C4A24F76EEE001CA858 /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
+		4E4A7C4B24F76EEE001CA858 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		4E4A7C4F24F76FD7001CA858 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		4E4A7C5124F77422001CA858 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4E4A7C5324F77490001CA858 /* AddCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E4A7C5524F774AC001CA858 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		4E4A7C5724F7752E001CA858 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E4A7C5924F77549001CA858 /* CardDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E4A7C5B24F7756B001CA858 /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E4A7C5D24F775FE001CA858 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E4A7C6124F7765D001CA858 /* BaseCollectionVCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionVCS.swift; sourceTree = "<group>"; };
+		4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionVC.swift; sourceTree = "<group>"; };
+		4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,68 @@
 		4E4A7C3224F76E8C001CA858 /* Design Banking App */ = {
 			isa = PBXGroup;
 			children = (
+				4E4A7C4E24F76FC9001CA858 /* Constants */,
 				4E4A7C3324F76E8C001CA858 /* AppDelegate.swift */,
 				4E4A7C3524F76E8C001CA858 /* SceneDelegate.swift */,
-				4E4A7C3724F76E8C001CA858 /* ViewController.swift */,
+				4E4A7C4924F76EBC001CA858 /* helpers */,
+				4E4A7C4824F76EB5001CA858 /* view */,
+				4E4A7C4724F76EAB001CA858 /* controller */,
 				4E4A7C3924F76E8C001CA858 /* Main.storyboard */,
 				4E4A7C3C24F76E8F001CA858 /* Assets.xcassets */,
 				4E4A7C3E24F76E8F001CA858 /* LaunchScreen.storyboard */,
 				4E4A7C4124F76E8F001CA858 /* Info.plist */,
 			);
 			path = "Design Banking App";
+			sourceTree = "<group>";
+		};
+		4E4A7C4724F76EAB001CA858 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A7C6124F7765D001CA858 /* BaseCollectionVCS.swift */,
+				4E4A7C3724F76E8C001CA858 /* OnboardingViewController.swift */,
+				4E4A7C5124F77422001CA858 /* HomeViewController.swift */,
+				4E4A7C6524F77941001CA858 /* custom */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E4A7C4824F76EB5001CA858 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A7C5524F774AC001CA858 /* BaseCollectionCell.swift */,
+				4E4A7C5324F77490001CA858 /* AddCardCollectionViewCell.swift */,
+				4E4A7C5724F7752E001CA858 /* CardsCollectionViewCell.swift */,
+				4E4A7C5924F77549001CA858 /* CardDetailsCollectionViewCell.swift */,
+				4E4A7C5B24F7756B001CA858 /* FriendsCollectionViewCell.swift */,
+				4E4A7C5D24F775FE001CA858 /* FriendCollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E4A7C4924F76EBC001CA858 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A7C4A24F76EEE001CA858 /* ExtensionUivew.swift */,
+				4E4A7C4B24F76EEE001CA858 /* UILabel.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4E4A7C4E24F76FC9001CA858 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A7C4F24F76FD7001CA858 /* CustomColors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4E4A7C6524F77941001CA858 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */,
+				4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */,
+			);
+			path = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4A7C3824F76E8C001CA858 /* ViewController.swift in Sources */,
+				4E4A7C5824F7752E001CA858 /* CardsCollectionViewCell.swift in Sources */,
+				4E4A7C4D24F76EEE001CA858 /* UILabel.swift in Sources */,
+				4E4A7C5624F774AC001CA858 /* BaseCollectionCell.swift in Sources */,
+				4E4A7C4C24F76EEE001CA858 /* ExtensionUivew.swift in Sources */,
+				4E4A7C5C24F7756B001CA858 /* FriendsCollectionViewCell.swift in Sources */,
+				4E4A7C3824F76E8C001CA858 /* OnboardingViewController.swift in Sources */,
 				4E4A7C3424F76E8C001CA858 /* AppDelegate.swift in Sources */,
+				4E4A7C5A24F77549001CA858 /* CardDetailsCollectionViewCell.swift in Sources */,
+				4E4A7C5424F77490001CA858 /* AddCardCollectionViewCell.swift in Sources */,
+				4E4A7C5024F76FD7001CA858 /* CustomColors.swift in Sources */,
+				4E4A7C6424F7768C001CA858 /* FriendsCollectionVC.swift in Sources */,
+				4E4A7C5224F77422001CA858 /* HomeViewController.swift in Sources */,
 				4E4A7C3624F76E8C001CA858 /* SceneDelegate.swift in Sources */,
+				4E4A7C5E24F775FE001CA858 /* FriendCollectionViewCell.swift in Sources */,
+				4E4A7C6224F7765D001CA858 /* BaseCollectionVCS.swift in Sources */,
+				4E4A7C6724F77959001CA858 /* HomeCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
