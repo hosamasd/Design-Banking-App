@@ -26,6 +26,8 @@
 		4E4A7C6224F7765D001CA858 /* BaseCollectionVCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6124F7765D001CA858 /* BaseCollectionVCS.swift */; };
 		4E4A7C6424F7768C001CA858 /* FriendsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */; };
 		4E4A7C6724F77959001CA858 /* HomeCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */; };
+		4ED9D82224F784C800800296 /* CustomCardsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED9D82124F784C800800296 /* CustomCardsCollectionVC.swift */; };
+		4ED9D82424F7857900800296 /* CustomCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED9D82324F7857900800296 /* CustomCardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		4E4A7C6124F7765D001CA858 /* BaseCollectionVCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionVCS.swift; sourceTree = "<group>"; };
 		4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionVC.swift; sourceTree = "<group>"; };
 		4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionVC.swift; sourceTree = "<group>"; };
+		4ED9D82124F784C800800296 /* CustomCardsCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardsCollectionVC.swift; sourceTree = "<group>"; };
+		4ED9D82324F7857900800296 /* CustomCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				4E4A7C5924F77549001CA858 /* CardDetailsCollectionViewCell.swift */,
 				4E4A7C5B24F7756B001CA858 /* FriendsCollectionViewCell.swift */,
 				4E4A7C5D24F775FE001CA858 /* FriendCollectionViewCell.swift */,
+				4ED9D82324F7857900800296 /* CustomCardCollectionViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			children = (
 				4E4A7C6324F7768C001CA858 /* FriendsCollectionVC.swift */,
 				4E4A7C6624F77959001CA858 /* HomeCollectionVC.swift */,
+				4ED9D82124F784C800800296 /* CustomCardsCollectionVC.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -218,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4A7C5824F7752E001CA858 /* CardsCollectionViewCell.swift in Sources */,
+				4ED9D82224F784C800800296 /* CustomCardsCollectionVC.swift in Sources */,
 				4E4A7C4D24F76EEE001CA858 /* UILabel.swift in Sources */,
+				4ED9D82424F7857900800296 /* CustomCardCollectionViewCell.swift in Sources */,
 				4E4A7C5624F774AC001CA858 /* BaseCollectionCell.swift in Sources */,
 				4E4A7C4C24F76EEE001CA858 /* ExtensionUivew.swift in Sources */,
 				4E4A7C5C24F7756B001CA858 /* FriendsCollectionViewCell.swift in Sources */,

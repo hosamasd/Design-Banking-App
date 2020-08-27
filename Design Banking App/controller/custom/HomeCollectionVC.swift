@@ -59,7 +59,9 @@ class HomeCollectionVC: BaseCollectionVCS {
     }
     
     override func setupCollection() {
+      
         collectionView.showsVerticalScrollIndicator = false
+        collectionView.contentInset.top = 60
         collectionView.backgroundColor = CustomColors.appBackground
         collectionView.register(AddCardCollectionViewCell.self, forCellWithReuseIdentifier: "AddCardCollectionViewCell")
         collectionView.register(CardsCollectionViewCell.self, forCellWithReuseIdentifier: "CardsCollectionViewCell")

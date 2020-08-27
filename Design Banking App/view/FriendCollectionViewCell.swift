@@ -15,15 +15,16 @@ class FriendCollectionViewCell: BaseCollectionCell {
         let img = UIImageView(image: UIImage(named: "img3"))
         img.layer.cornerRadius = 20
         img.clipsToBounds = true
+        img.translatesAutoresizingMaskIntoConstraints = false
+
         return img
     }()
     
     lazy var addView:UIView = {
         let v = UIView(backgroundColor: CustomColors.stoneGray)
         v.layer.cornerRadius = 18
-        v.constrainWidth(constant: 30)
-        v.constrainHeight(constant: 30)
-        
+        v.translatesAutoresizingMaskIntoConstraints = false
+
         return v
     }()
     
@@ -36,7 +37,7 @@ class FriendCollectionViewCell: BaseCollectionCell {
     }()
     
     override func setupViews() {
-        addSubViews(views: imageView,addView)
+        addSubViews(views: imageView,addView,addImage)
         
         imageView.fillSuperview()
         addView.fillSuperview()

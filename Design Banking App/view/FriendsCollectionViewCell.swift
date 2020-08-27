@@ -24,7 +24,7 @@ class FriendsCollectionViewCell: BaseCollectionCell {
         
         titleLabel.anchor(top: topAnchor, leading: leadingAnchor, bottom: nil, trailing: nil,padding: .init(top: 10, left: 30, bottom: 0, right: 0))
 
-        friendsCollectionVC.view.fillSuperview(padding: .init(top: 0, left: 50, bottom: 18, right: 0))
+        friendsCollectionVC.view.fillSuperview(padding: .init(top: 60, left: 50, bottom: 18, right: 0))
         
         self.titleLabel.center.x += 50
         self.titleLabel.alpha = 0
